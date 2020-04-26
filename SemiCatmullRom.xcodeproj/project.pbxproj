@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		CC029DFA2454F17B00BE36CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029DF92454F17B00BE36CF /* AppDelegate.swift */; };
 		CC029DFC2454F17B00BE36CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029DFB2454F17B00BE36CF /* SceneDelegate.swift */; };
-		CC029DFE2454F17B00BE36CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029DFD2454F17B00BE36CF /* ViewController.swift */; };
+		CC029DFE2454F17B00BE36CF /* SemiCatmullRomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029DFD2454F17B00BE36CF /* SemiCatmullRomViewController.swift */; };
 		CC029E012454F17B00BE36CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC029DFF2454F17B00BE36CF /* Main.storyboard */; };
 		CC029E032454F17E00BE36CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC029E022454F17E00BE36CF /* Assets.xcassets */; };
 		CC029E062454F17E00BE36CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC029E042454F17E00BE36CF /* LaunchScreen.storyboard */; };
+		CC029E0E2454F1A700BE36CF /* SemiCatmullRomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029E0D2454F1A700BE36CF /* SemiCatmullRomView.swift */; };
+		CC029E102454F20500BE36CF /* CoreGraphics+Z.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC029E0F2454F20500BE36CF /* CoreGraphics+Z.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC029DF62454F17B00BE36CF /* BezierTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC029DF62454F17B00BE36CF /* SemiCatmullRom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiCatmullRom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC029DF92454F17B00BE36CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC029DFB2454F17B00BE36CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC029DFD2454F17B00BE36CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC029DFD2454F17B00BE36CF /* SemiCatmullRomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCatmullRomViewController.swift; sourceTree = "<group>"; };
 		CC029E002454F17B00BE36CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC029E022454F17E00BE36CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC029E052454F17E00BE36CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC029E072454F17E00BE36CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC029E0D2454F1A700BE36CF /* SemiCatmullRomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCatmullRomView.swift; sourceTree = "<group>"; };
+		CC029E0F2454F20500BE36CF /* CoreGraphics+Z.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Z.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		CC029DED2454F17B00BE36CF = {
 			isa = PBXGroup;
 			children = (
-				CC029DF82454F17B00BE36CF /* BezierTest2 */,
+				CC029DF82454F17B00BE36CF /* SemiCatmullRom */,
 				CC029DF72454F17B00BE36CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		CC029DF72454F17B00BE36CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC029DF62454F17B00BE36CF /* BezierTest2.app */,
+				CC029DF62454F17B00BE36CF /* SemiCatmullRom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC029DF82454F17B00BE36CF /* BezierTest2 */ = {
+		CC029DF82454F17B00BE36CF /* SemiCatmullRom */ = {
 			isa = PBXGroup;
 			children = (
 				CC029DF92454F17B00BE36CF /* AppDelegate.swift */,
 				CC029DFB2454F17B00BE36CF /* SceneDelegate.swift */,
-				CC029DFD2454F17B00BE36CF /* ViewController.swift */,
+				CC029DFD2454F17B00BE36CF /* SemiCatmullRomViewController.swift */,
 				CC029DFF2454F17B00BE36CF /* Main.storyboard */,
+				CC029E0D2454F1A700BE36CF /* SemiCatmullRomView.swift */,
+				CC029E0F2454F20500BE36CF /* CoreGraphics+Z.swift */,
 				CC029E022454F17E00BE36CF /* Assets.xcassets */,
 				CC029E042454F17E00BE36CF /* LaunchScreen.storyboard */,
 				CC029E072454F17E00BE36CF /* Info.plist */,
 			);
-			path = BezierTest2;
+			path = SemiCatmullRom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC029DF52454F17B00BE36CF /* BezierTest2 */ = {
+		CC029DF52454F17B00BE36CF /* SemiCatmullRom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC029E0A2454F17E00BE36CF /* Build configuration list for PBXNativeTarget "BezierTest2" */;
+			buildConfigurationList = CC029E0A2454F17E00BE36CF /* Build configuration list for PBXNativeTarget "SemiCatmullRom" */;
 			buildPhases = (
 				CC029DF22454F17B00BE36CF /* Sources */,
 				CC029DF32454F17B00BE36CF /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = BezierTest2;
+			name = SemiCatmullRom;
 			productName = BezierTest2;
-			productReference = CC029DF62454F17B00BE36CF /* BezierTest2.app */;
+			productReference = CC029DF62454F17B00BE36CF /* SemiCatmullRom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC029DF12454F17B00BE36CF /* Build configuration list for PBXProject "BezierTest2" */;
+			buildConfigurationList = CC029DF12454F17B00BE36CF /* Build configuration list for PBXProject "SemiCatmullRom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC029DF52454F17B00BE36CF /* BezierTest2 */,
+				CC029DF52454F17B00BE36CF /* SemiCatmullRom */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC029DFE2454F17B00BE36CF /* ViewController.swift in Sources */,
+				CC029DFE2454F17B00BE36CF /* SemiCatmullRomViewController.swift in Sources */,
 				CC029DFA2454F17B00BE36CF /* AppDelegate.swift in Sources */,
+				CC029E102454F20500BE36CF /* CoreGraphics+Z.swift in Sources */,
 				CC029DFC2454F17B00BE36CF /* SceneDelegate.swift in Sources */,
+				CC029E0E2454F1A700BE36CF /* SemiCatmullRomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P97EM4L4N;
-				INFOPLIST_FILE = BezierTest2/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SemiCatmullRom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.BezierTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SemiCatmullRom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P97EM4L4N;
-				INFOPLIST_FILE = BezierTest2/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SemiCatmullRom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.BezierTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.SemiCatmullRom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC029DF12454F17B00BE36CF /* Build configuration list for PBXProject "BezierTest2" */ = {
+		CC029DF12454F17B00BE36CF /* Build configuration list for PBXProject "SemiCatmullRom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC029E082454F17E00BE36CF /* Debug */,
@@ -328,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC029E0A2454F17E00BE36CF /* Build configuration list for PBXNativeTarget "BezierTest2" */ = {
+		CC029E0A2454F17E00BE36CF /* Build configuration list for PBXNativeTarget "SemiCatmullRom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC029E0B2454F17E00BE36CF /* Debug */,

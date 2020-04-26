@@ -1,9 +1,9 @@
 //
-//  SceneDelegate.swift
-//  BezierTest2
+//	SceneDelegate.swift
+//	BezierTest2
 //
-//  Created by Kaz Yoshikawa on 4/25/20.
-//  Copyright © 2020 Kaz Yoshikawa. All rights reserved.
+//	Created by Kaz Yoshikawa on 4/25/20.
+//	Copyright © 2020 Kaz Yoshikawa. All rights reserved.
 //
 
 import UIKit

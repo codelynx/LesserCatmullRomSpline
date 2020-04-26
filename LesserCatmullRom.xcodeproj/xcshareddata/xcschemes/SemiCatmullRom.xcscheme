@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC029DF52454F17B00BE36CF"
-               BuildableName = "SemiCatmullRom.app"
-               BlueprintName = "SemiCatmullRom"
-               ReferencedContainer = "container:SemiCatmullRom.xcodeproj">
+               BuildableName = "LesserCatmullRom.app"
+               BlueprintName = "LesserCatmullRom"
+               ReferencedContainer = "container:LesserCatmullRom.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC029DF52454F17B00BE36CF"
-            BuildableName = "SemiCatmullRom.app"
-            BlueprintName = "SemiCatmullRom"
-            ReferencedContainer = "container:SemiCatmullRom.xcodeproj">
+            BuildableName = "LesserCatmullRom.app"
+            BlueprintName = "LesserCatmullRom"
+            ReferencedContainer = "container:LesserCatmullRom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC029DF52454F17B00BE36CF"
-            BuildableName = "SemiCatmullRom.app"
-            BlueprintName = "SemiCatmullRom"
-            ReferencedContainer = "container:SemiCatmullRom.xcodeproj">
+            BuildableName = "LesserCatmullRom.app"
+            BlueprintName = "LesserCatmullRom"
+            ReferencedContainer = "container:LesserCatmullRom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

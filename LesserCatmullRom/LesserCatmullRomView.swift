@@ -1,5 +1,5 @@
 //
-//	BezierView.swift
+//	LesserCatmullRomView.swift
 //	BezierTest2
 //
 //	Created by Kaz Yoshikawa on 4/25/20.
@@ -42,9 +42,9 @@ fileprivate extension Array {
 
 extension UIBezierPath {
 
-	convenience init(semiCatmullRom: [CGPoint], close: Bool, K: CGFloat = 0.2) {
+	convenience init(lesserCatmullRom: [CGPoint], close: Bool, K: CGFloat = 0.2) {
 		self.init()
-		let points = semiCatmullRom
+		let points = lesserCatmullRom
 		var c1 = [Int: CGPoint]()
 		var c2 = [Int: CGPoint]()
 		let count = close ? points.count + 1 : points.count - 1
@@ -65,7 +65,7 @@ extension UIBezierPath {
 }
 
 
-class SemiCatmullRomView: UIView {
+class LesserCatmullRomView: UIView {
 
 	func plot(point: CGPoint, color: UIColor) {
 		color.set()
@@ -123,7 +123,7 @@ class SemiCatmullRomView: UIView {
 
 		if self.points.count > 1 {
 			UIColor.orange.withAlphaComponent(0.5).set()
-			let bezier = UIBezierPath(semiCatmullRom: self.points, close: self.close)
+			let bezier = UIBezierPath(lesserCatmullRom: self.points, close: self.close)
 			bezier.lineWidth = 8
 			bezier.stroke()
 		}

@@ -7,7 +7,7 @@ Due to the nature of this mechanics, codes are a bit too hard to understand what
 
 My purpose of using Catmull-Rom spline is just make a smooth bezier line from number of points touch on a screen.  Since Apple Pencil arrive, perhaps you may not need line smoothing any more, but I still like to stick with it.
 
-Catmull-Rom spline requires 4 points to make a curve with a bit complicated steps to calculate.  I mimic the idea of Catmull-Rom spline using three points to make a curve, so I called Semi Catmull Rom spline.
+Catmull-Rom spline requires 4 points to make a curve with a bit complicated steps to calculate.  I mimic the idea of Catmull-Rom spline using three points to make a curve, so I called Lesser Catmull Rom spline.
 
 I provide a working Xcode project to test this algorithm, so you can try to see at least this code is broken or not.
 

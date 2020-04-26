@@ -1,5 +1,5 @@
 //
-//	SemiCatmullRomViewController.swift
+//	LesserCatmullRomViewController.swift
 //	BezierTest2
 //
 //	Created by Kaz Yoshikawa on 4/25/20.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class SemiCatmullRomViewController: UIViewController {
+class LesserCatmullRomViewController: UIViewController {
 
 	@IBOutlet weak var closeSwitch: UISwitch!
 	@IBOutlet weak var clearButtonItem: UIBarButtonItem!
-	@IBOutlet weak var bezierView: SemiCatmullRomView!
+	@IBOutlet weak var bezierView: LesserCatmullRomView!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()

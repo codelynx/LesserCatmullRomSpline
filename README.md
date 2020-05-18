@@ -1,5 +1,8 @@
 # Lesser Catmull Rom Spline
 
+![xcode](https://img.shields.io/badge/Xcode-11.4-blue)
+![swift](https://img.shields.io/badge/Swift-5.1-orange.svg)
+![license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 I spent sometime to find how to implement Catmull-Rom spline as bezier path in iOS.  I realized that some code on the net are partially working or partially broken.  Others are simply written in other language and I can't tell it is working code or not until I do hand port and try.
 
